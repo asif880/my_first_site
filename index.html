@@ -4,115 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfoloio Website</title>
-    <style>
-    *{
-     box-sizing:border-box ;
-    }
-    .header{
-        background-color:skyblue;
-        color:white;
-        padding:1% 5%;
-        text-align:center;
-    }
-    .nav-menu{
-        padding:1% 5%;
-        background-color:cadetblue;
-    }
-.nav-menu a{
-    color:white;
-    text-decoration:none;
-    font-size:1.2rem;
-    padding:10px;
-    display:block;
-}
-.main{
-    padding:1% 5%;
-    background-color:turquoise;
+    <title>Obaidul Kader Asif</title>
 
-}
-.aside{
-    padding:1% 5%;
-    background-color: #39a4ac;
-    text-align:center;
-}
-.footer{
-    background-color:black;
-    color:white;
-}
-    
-    /*for desktop */
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-[class*="col-"]{
-    float:left;
-    padding:10px;    
-}
-.row::after{
-    content:'';
-    clear:both;
-    display:table;
-}
-@media screen and (max-width:768px){
-    [class*="col-"]{
-    width:100%;
-    }
-    .nav-menu a{
-        background-color:aqua;
-        text-align:center;
-        margin:10px;
-        border-radius: 10px;
-    }
-}
-   </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat&family=Satisfy&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/7ff3b4cc5d.js" crossorigin="anonymous"></script>  
+<link rel="stylesheet"href="style.css">
+    <link rel="stylesheet"href="desktop.css" media="screen and (min-width:992px)">
 </head>
 <body>
-    <div class="header">
-        <h1>Obaidul Kader Asif</h1>
-    </div>
-    <div class="row">
-        <div class="nav-menu col-2">
+    <div class="navbar ">
+        <div clss="nav-logo col-2">
+            <img src="images/logo.png"alt="logo">
+
+        </div>
+        <div class="nav-heding col-4">
+           <h1>Obaidul Kader Asif</h1>
+
+        </div>
+        <div class="navbar-menu col-6">
             <a href="#">Home</a>
-            <a href="#">About Us </a>
-            <a href="#">Blog</a>
+            <a href="#about-me-id">About Me</a>
+            <a href="#">Contact</a>
             <a href="#">Popular Post</a>
-        </div>
-        <div class="main col-7">
-            <h1>I am a Web Desiginer</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, fuga?</p><br>
-            <p>Lorem ipsum dolor sit, amet consectetur 
-            adipisicing elit. Quo omnis at accusantium fuga quis veniam molestiae 
-            id ad tempora odit, illo dolore. Aliquid soluta commodi molestiae, esse perspiciatis est praesentium reiciendis, mollitia porro quis ratione quibusdam tenetur ipsam! Consequuntur 
-             exercitationem neque in architecto enim animi
-              quasi voluptatibus minima fugiat!
-            </p><br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi tenetur iste 
-            minima nostrum assumenda quasi aliquam doloremque veritatis atque animi.</p>
-        </div>
-        <div class="aside col-3">
-            <h2>What I Love?</h2>
-            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, modi?</P>
-            <h2>What I do?</h2>
-            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, modi?</P>
-            <h2>What I dont love Love?</h2>
-            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, modi?</P>
-            <h2>What I dont do?</h2>
-            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, modi?</P>
+
         </div>
     </div>
-    <div class="footer">
-        <p>&copy; My website</p>
+
+
+
+    <div class="profile">
+        <div class="profile-dis">
+            <h1>I am a Student of CSE<br>&<br>Web Devloper</h1>
+            <p>Hi! I Am Obaidul Kader.This is my first personal website.Welcome to my website.....</p>
+        </div>
     </div>
+
+    <div class="about-me"id="about-me-id">
+        <h2>ABOUT ME</h2>
+        <hr class="dotted-hr">
+        <div class="aboutme-image col-6">
+            <img src="images/myphoto.jpg"alt="">
+        </div>
+        <div class="aboutme-dis col-6">
+            <p>I am a student of Computer Science & Engineering.I studied at BGC Trust University Bangladesh</p>
+            <p>I want to be  a best Web devloper</p>
+
+            <hr class="aboutme-hr">
+            <P>Name:Obaidul Kader Asif</P>
+            <hr class="aboutme-hr">
+            <p>Address:Kotwally Chittagong,Bangladesh</p>
+            <hr class="aboutme-hr">
+            <p>Email:<a href="mailto:apasif008@gmail.com">apasif008@gmail.com</a></p>
+            <hr class="aboutme-hr">
+            <p>phone:<a href="tel:+880 01799438633">+880 01799438633</a></p>
+            <hr class="aboutme-hr">
+        </div>
+    </div>
+    <div>
+        <div class="footer"><h3>Follow Me At:</h3></div>
+    <div class="social-icons">
+        <a href="https://www.facebook.com/obaidulkader.asif "target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="#"target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="#"target="_blank"><i class="fab fa-google-drive"></i> </a>
+        <a href="#"><i class="fas fa-envelope"></i></a>
+     
+    </div>
+
     
 </body>
 </html>
